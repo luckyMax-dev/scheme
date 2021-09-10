@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsd:schema xmlns="https://github.com/luckyMax-dev/galaxy-scheme/tree/master/saturn/src/main/resources"
+<xsd:schema xmlns="https://github.com/luckyMax-dev/scheme/tree/master/mars"
             xmlns:xsd="http://www.w3.org/2001/XMLSchema"
             xmlns:beans="http://www.springframework.org/schema/beans"
-            targetNamespace="https://github.com/luckyMax-dev/galaxy-scheme/tree/master/saturn/src/main/resources"
+            targetNamespace="https://github.com/luckyMax-dev/scheme/tree/master/mars"
             elementFormDefault="qualified"
 >
     <xsd:import namespace="http://www.springframework.org/schema/beans"/>
