@@ -48,18 +48,6 @@
     </xsd:complexType>
 
 
-    <xsd:complexType name="loadBalanceConfig">
-        <xsd:complexContent>
-            <xsd:extension base="beans:identifiedType">
-                <xsd:attribute name="loadBalance" type="xsd:string">
-                    <xsd:annotation>
-                        <xsd:documentation><![CDATA[ which serialize framework should use ]]></xsd:documentation>
-                    </xsd:annotation>
-                </xsd:attribute>
-            </xsd:extension>
-        </xsd:complexContent>
-    </xsd:complexType>
-
     <xsd:complexType name="providerConfig">
         <xsd:complexContent>
             <xsd:extension base="beans:identifiedType">
@@ -209,12 +197,6 @@
                 </xsd:element>
 
                 <xsd:element name="serialize" minOccurs="0" type="serializeConfig">
-                    <xsd:annotation>
-                        <xsd:documentation><![CDATA[ The serialize config ]]></xsd:documentation>
-                    </xsd:annotation>
-                </xsd:element>
-
-                <xsd:element name="loadBalance" minOccurs="0" type="loadBalanceConfig">
                     <xsd:annotation>
                         <xsd:documentation><![CDATA[ The serialize config ]]></xsd:documentation>
                     </xsd:annotation>
